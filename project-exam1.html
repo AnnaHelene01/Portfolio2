@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Exam 1</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" 
+    crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/79f4911f4f.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js" defer></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" 
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" 
+    crossorigin="anonymous"> defer
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" 
+    crossorigin="anonymous"> defer
+    </script>
+</head>
+  <body>
+        <i class="fas fa-bars mobile-nav-toggle d-lg-none"></i>
+        <header id="header">
+          <div class="d-flex flex-column">
+            <div class="profile">
+              <img src="./img/portrett.png" alt="" class="img-fluid rounded-circle">
+              <h1 class="text-light"><a href="index.html">Anna Helene Sæthre</a></h1>
+              <div class="social-links mt-3 text-center">
+                <a href="#" class="twitter"><i class="fab fa-facebook"></i></a> <!--LEGG TIL IKONER-->
+                <a href="#" class="facebook"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="instagram"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="google-plus"><i class="fab fa-github-square"></i></a>
+                <a href="#" class="linkedin"><i class="fas fa-at"></i></a>
+              </div>
+            </div>
+      
+            <nav id="navbar" class="nav-menu navbar">
+              <ul>
+                <li><a href="./index.html" class="nav-link scrollto"><i class="bx bx-home"></i> <span>Go back</span></a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+       
+       <!-- ==== MAIN CONTENT ===== -->
+        <main>
+  <div class="container mt-5 w-75">
+    <h1>Project exam 1</h1>
+    <div class="row mt-5">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <img src="./img/exam1-project.png" class="img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+            <h3>Tools used:</h3>
+            <ul class="list-unstyled">
+                    <ul>
+                        <li class="mt-2">Planning: Trello</li>
+                        <li class="mt-2">Design: Figma & Pixelmator</li>
+                        <li class="mt-2">Implementation: HTML, CSS & JavaScript</li>
+                        <li class="mt-2">Version Control: Github</li>
+                        <li class="mt-2">Host: Netlify</li>
+                    </ul>
+            </ul>
+        </div>
+    </div>
+  <h4 class="mt-5">About the project</h4>
+    <p>The exam task consisted of creating my own blog, with a topic og my choice. Here I was going
+        to use Wordpress as a Headless CMS, and design my own front end.
+        The requirement was to create a full-fledged website, which included 
+        a slideshow, loadmore function for the posts and a image modal.
+    </p>
+  <h4 class="mt-5">How it went</h4>
+    <p>I set up the page statically and added all the CSS before starting the technical stuff (JS). Added a 
+       function to create image modal for each post. On the posts page i extracted only 9 posts to the first page,
+        and constructed a button that ectracted the last 3.
+    </p>
+    <p>If you want to read more about the project, look at the hosted site or download it yourself, please
+        check out my links down below! 
+    </p>
+  <h4 class="mt-5">Links</h4>
+  <ul class="list-unstyled">
+       <ul>
+           <li class="mt-2">Netlify</li>
+           <li class="mt-2">Github</li>
+           <li class="mt-2">Figma</li>
+       </ul>
+   </ul>
+   <h4 class="mt-5">Phone preview:</h4>
+   <div class="clock-container">
+       <div id="inner_wrap">  
+           <div id="wrapper" style="perspective: 1300px;">
+               <div class="phone view_2" id="phone_1" style="width: 360px; height: 640px;">
+                  <iframe src="https://treningsblogg.netlify.app/" id="frame_1"></iframe>
+              </div>
+           </div>
+       </div>
+   </div>
+</div>
+</section>
+    </main>
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-dark" href="">Anna Helene Sæthre</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+</html>
