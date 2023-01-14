@@ -2,17 +2,36 @@ a {
     text-decoration: none;
   }
   
+/* Get content aligned next to side-menu */
+
   main {
     margin-left: 300px;
   }
-  
+
+/* Mobile nav */
+.navbar-brand {
+  color: white;
+}
+
+nav {
+  background-color: #00539c;
+}
+
+.nav-link {
+  color: #a8a9b4;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
   @media (min-width: 991px) {
   .mobile-nav {
       display: none;
   }
 }
   /*--------------------------------------------------------------
-  # Header
+  # Side - Header
   --------------------------------------------------------------*/
   #header {
     position: fixed;
@@ -132,25 +151,18 @@ a {
   }
   
   /* Mobile Navigation */
-  .mobile-nav-toggle {
-    position: fixed;
-    right: 15px;
-    top: 15px;
-    z-index: 9998;
-    border: 0;
+.navbar-toggler {
+  background-color: #eea47f;
+  color: #eea47f;
+}
+
+  .navbar-toggler-icon {
     font-size: 24px;
-    transition: all 0.4s;
-    outline: none !important;
     background-color: #eea47f;
     color: #fff;
-    width: 40px;
-    height: 40px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    line-height: 0;
-    border-radius: 50px;
-    cursor: pointer;
   }
   
   .mobile-nav-active {
