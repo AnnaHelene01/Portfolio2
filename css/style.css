@@ -173,6 +173,17 @@ nav {
     left: 0;
   }
   
+/* MAIN FRONT PAGE DESIGN */
+.main-h1 {
+  font-size: 4rem;
+}
+
+.blue {
+  color: #00539c;
+}
+
+
+
   /* PORTOFOLIO BILDE M KNAPP - HOVER*/
   .img-hover {
     position: relative;
