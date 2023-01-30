@@ -8,6 +8,12 @@ a {
     margin-left: 300px;
   }
 
+/*
+font-family: 'Bowlby One SC', cursive;
+font-family: 'Rowdies', cursive;
+*/
+
+
 /* Mobile nav */
 .navbar-brand {
   color: white;
@@ -176,6 +182,11 @@ nav {
 /* MAIN FRONT PAGE DESIGN */
 .main-h1 {
   font-size: 4rem;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.font-bowlby {
+  font-family: 'Bowlby One SC', cursive;
 }
 
 .blue {
